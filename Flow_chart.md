@@ -69,6 +69,17 @@ What is Typhoid Mary's real name?
     b. Mary Mallon *
     c. Mary Pope Osborne
     d. Mary Wollstonecraft
-
+Which outbreak started in 1918?
+    a. Cocolizti Epidemic
+    b. Yellow Fever Epidemic
+    c. Spanish Influenze *
+    d. Asian Flu
+About how many people have died from AIDS?
+    a. 700,000
+    b. 18 million
+    c. 98 million
+    d. 35 million *
+What is the scientific name for smallpox?
+    a. 
 
 
