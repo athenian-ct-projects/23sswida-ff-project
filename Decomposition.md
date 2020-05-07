@@ -1,17 +1,13 @@
-# Focus Day Project Decomposition
+due dates for each step:
 
-* Write your plan here. Use headings an bullet points to organize your thoughts. See the Markdown guide for formatting hints.
+May 12 - Have all the questions ready
 
-Here are soem formatting examples:
-# Level 1 Header
-## Level 2
-### Level 3
+May 14 - Get user input for name of epidemic, and design the code for getting a random number
 
-* Bullet point, level 1  
-  * Level 2 (tab once)
-    * Level 3
+May 16 - Create function for 'betting'
 
- 
- *Italics*
- 
- **Bold**
+May 18 - Create function for asking the questions
+
+May 20 - Design code so that the point value stays between 0-5000
+
+May 21 - Finish polishing
