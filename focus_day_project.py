@@ -13,6 +13,17 @@ question4 = "What does CDC stand for?"
 question5 = ""
 trivia_list = 
 #function for printing trivia questions
+
+''' 
+Note from Megan: to make a function, the syntax is:
+def my_function():
+    stuff function does
+    return _____ (whatever you weant to come out of the function)
+
+How are you planning to store your questions? Will you use lists? Lots of "if" statements?
+Let me know how I can help!
+''''
+
 def ask_question 
 
 for random_cases>5000
