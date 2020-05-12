@@ -39,7 +39,7 @@ What does CDC stand for?
     b. Coronavirus Death Count
     c. California Department of Care 
     d. Center for Disease Control *
-What does an epidemiologist do?
+What does an epidemiologist mainly do?
     a. Study diseases and how to control them *
     b. Help surgeons deliver the right amount of anesthetic
     c. Study groups of people within certain demographics
@@ -79,7 +79,43 @@ About how many people have died from AIDS?
     b. 18 million
     c. 98 million
     d. 35 million *
-What is the scientific name for smallpox?
-    a. 
-
-
+What is another name for smallpox?
+    a. Variola Major/Minor *
+    b. Pharyngitis
+    c. Anaplasmosis
+    d. Valley Fever
+How is Mononucleosis known for being transmitted?
+    a. Air 
+    b. Kissing *
+    c. Skin contact
+    d. It isn't contagious
+What is the annual leading cause of death?
+    a. Respiratory diseases
+    b. Alzheimer's
+    c. Heart disease *
+    d. Cancer
+Approximately how many 'rare' diseases are there?
+    a. 2,100
+    b. 3,000
+    c. 6,800
+    d. 7,000 *
+Which of the following is NOT a common symptom of Lyme Disease?
+    a. Shortness of breath *
+    b. Fever
+    c. Chills
+    d. Muscle aches
+How common is Alzheimer's disease in people over 65?
+    a. 1 in 11
+    b. 1 in 14 *
+    c. 1 in 16
+    d. 1 in 63
+How many adults in the US are considered obese?
+    a. 480,000
+    b. 36 million
+    c. 70 million *
+    d. 99 million
+What is believed to be the oldest human disease?
+    a. Smallpox
+    b. Malaria
+    c. Cholera
+    d. Leprosy *
