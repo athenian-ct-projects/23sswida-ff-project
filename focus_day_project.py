@@ -10,8 +10,23 @@ question1 = "What is the difference between an epidemic and a pandemic?"
 question2 = "Where was the first reported case of the Spanish Flu?"
 question3 = "When was the first confirmed case of coronavirus?"
 question4 = "What does CDC stand for?"
-question5 = ""
-trivia_list = 
+question5 = "What does an epidemiologist mainly do?"
+question6 = "What century was the Black Plague in?"
+question7 = "How many people are estimated to have died from the Black Plague?"
+question8 = "What is the mortality rate of rabies?"
+question9 = "Which of the following is NOT a symptom of yellow fever?"
+question10 = "What is Typhoid Mary's real name?"
+question11 = "Which outbreak started in 1918?"
+question12 = "About how many people have died from AIDS?"
+question13 = "What is another name for smallpox?"
+question14 = "How is Mononucleosis known for being transmitted?"
+question15 = "What is the annual leading cause of death?"
+question16 = "Approximately how many 'rare' diseases are there?"
+question17 = "Which of the following is NOT a common symptom of Lyme Disease?"
+question18 = "How common is Alzheimer's disease in people over 65?"
+question19 = "How many adults in the US are considered obese?"
+question20 = "What is believed to be the oldest human disease?"
+trivia_list = [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10, question11, question12, question13, question14, question15, question16, question17, question18, question19, question20]
 #function for printing trivia questions
 
 ''' 
