@@ -27,24 +27,24 @@ question18 = "How common is Alzheimer's disease in people over 65?"
 question19 = "How many adults in the US are considered obese?"
 question20 = "What is believed to be the oldest human disease?"
 trivia_list = [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10, question11, question12, question13, question14, question15, question16, question17, question18, question19, question20]
-#function for printing trivia questions
 
-''' 
-Note from Megan: to make a function, the syntax is:
-def my_function():
-    stuff function does
-    return _____ (whatever you weant to come out of the function)
+#question 1 answers
+queans1 = ["a.", "A.", "a", "A"]
 
-How are you planning to store your questions? Will you use lists? Lots of "if" statements?
-Let me know how I can help!
-''''
-
-def ask_question 
+def ask_question():
+    random.choice(trivia_list) 
+    for question1:  
+        print("a. the size of the region the disease affects" +'\n'+ "b. the mortality rate" + '\n' + "c. how quickly the disease spreads" + '\n' + "d. virus vs bacteria")
+        answer1 = input("Which letter is the correct answer? ")
+            if answer in queans1:
+                print("Correct!")
+            else:
+                print()
 
 for random_cases>5000
     print("Oops! You reached over 5000 cases. Better luck next time!")
 #instructions
-start = input("Welcome to 'Cure That Disease!' To start the game, you will be given a number of cases between 1 and 5000. This is how many cases you have to begin with. You will then be given a series of questions. Before each question, you can 'bet' a number of cases. If you get the question right, that number is taken off your case count. If you get it wrong, it is added to your case count. If you get it wrong, you will get a second chance at the question and if you get it right the second time, you will get half of your bet taken off the case count. Be careful, because if your case count goes over 5000, you lose the game. There are only 20 questions, so keep that in mind when making your bets. Your objective is to get down to 0 cases. Are you ready? " )
+start = input("Welcome to 'Cure That Disease!' To start the game, you will be given a number of cases between 1 and 5000. This is how many cases you have to begin with. You will then be given a series of questions. Before each question, you can 'bet' a number of cases. If you get the question right, that number is taken off your case count. If you get it wrong, it is added to your case count. Be careful, because if your case count goes over 5000, you lose the game. There are only 20 questions, so keep that in mind when making your bets. Your objective is to get down to 0 cases. Are you ready? " )
 while start not in start_list:
     print("Sorry, I didn't understand that. Try typing in a different answer.")
     start = input("Are you ready? ")
