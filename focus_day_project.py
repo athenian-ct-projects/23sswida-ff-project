@@ -9,7 +9,7 @@ start_list = ["Yes", "yes", "y", "Y", "yep", "Yep", "Yeah", "yeah", "ok", "Ok", 
 question1 = ("What is the difference between an epidemic and a pandemic?" + '\n' + "a. the size of the region the disease affects" + '\n' + "b. the mortality rate" + '\n' + "c. how quickly the disease spreads" + '\n' + "d. virus vs. bacteria")
 question2 = ("Where was the first reported case of the Spanish Flu?" + '\n' + "  a. Spain " + '\n' + "b. Kansas" + '\n' + "c. Venezuela" + '\n' + "d. Egypt")
 question3 = ("When was the first confirmed case of coronavirus?" + '\n' + "a. January 21, 2020" + '\n' + "b. December 2, 2019" + '\n' + "c. December 31, 2019" + '\n' + "d. February 3, 2020")
-question4 = ("What does CDC stand for?" + '\n' + "a. Center for the Doctors of California"  + '\n' + "b. Coronavirus Death Count" + "c. California Department of Care"  + '\n' + "Center for Disease Control")
+question4 = ("What does CDC stand for?" + '\n' + "a. Center for the Doctors of California"  + '\n' + "b. Coronavirus Death Count" + '\n' + "c. California Department of Care"  + '\n' + "Center for Disease Control")
 question5 = ("What does an epidemiologist mainly do?" + '\n' + "a. Study disease and how to control them"  + '\n' + "b. Help surgeons deliver the right amount of anesthetic"  + '\n' + "c. Study groups of people within certain demographics"  + '\n' + "d. Write newspaper and magazine articles about disease outbreaks")
 question6 = ("Which centrury was the Black Plague in?" + '\n' + "a. 1200's"  + '\n' + "b. 1300's"  + '\n' + "c. 1400's" + '\n' + "d. 1400's")
 question7 = ("How many people are estimated to have died from the Black Plague?" + '\n' + "a. 100,000-600,000" + '\n' + "b. 3 million-12 million" + '\n' + "c. 75 million-200million" + '\n' + "d. 250 million+")
@@ -45,13 +45,11 @@ def ask_question(queans1, trivia_list, random_cases):
         for answer1 in queans1:
             print("Correct!")
             random_cases -= bet1
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question1)
+            print("There are now" + str(random_cases) + "cases")
         else:
             print("Incorrect")
             random_cases += bet1
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question1)
+            print("There are now" + str(random_cases) + "cases")
     if x == trivia_list[1]:
         print(x)
         bet2 = bool(input("How many cases are you betting? "))
@@ -59,13 +57,11 @@ def ask_question(queans1, trivia_list, random_cases):
         for answer2 in queans2:
             print("Correct!")
             random_cases -= bet2
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question2)
+            print("There are now " + str(random_cases)+ " cases")
         else:
             print("Incorrect")
             random_cases += bet2
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question2)
+            print("There are now " + str(random_cases) + " cases")
     if x == trivia_list[2]:
         print(x)
         bet3 = bool(input("How many cases are you betting? "))
@@ -73,13 +69,11 @@ def ask_question(queans1, trivia_list, random_cases):
         for answer3 in queans3:
             print("Correct!")
             random_cases -= bet3
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question3)
+            print("There are now " + str(random_cases) + " cases")
         else:
             print("Incorrect")
             random_cases += bet3
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question3)
+            print("There are now " + str(random_cases) + " cases")
     if x == trivia_list[3]:
         print(x)
         bet4 = bool(input("How many cases are you betting? "))
@@ -87,13 +81,11 @@ def ask_question(queans1, trivia_list, random_cases):
         for answer4 in queans4:
             print("Correct!")
             random_cases -= bet4
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question4)
+            print("There are now " + str(random_cases) + " cases")
         else:
             print("Incorrect")
             random_cases += bet4
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question4)
+            print("There are now " + str(random_cases) + " cases")
     if x == trivia_list[4]:
         print(x)
         bet5 = bool(input("How many cases are you betting? "))
@@ -101,13 +93,11 @@ def ask_question(queans1, trivia_list, random_cases):
         for answer5 in queans1:
             print("Correct!")
             random_cases -= bet5
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question5)
+            print("There are now " + str(random_cases) + " cases")
         else:
             print("Incorrect")
             random_cases += bet5
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question5)
+            print("There are now " + str(random_cases) + " cases")
     if x == trivia_list[5]:
         print(x)
         bet6 = bool(input("How many cases are you betting? "))
@@ -115,13 +105,11 @@ def ask_question(queans1, trivia_list, random_cases):
         for answer6 in queans2:
             print("Correct!")
             random_cases -= bet6
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question6)
+            print("There are now " + str(random_cases) + " cases")
         else:
             print("Incorrect")
             random_cases += bet6
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question6)
+            print("There are now " + str(random_cases) + " cases")
     if x == trivia_list[6]:
         print(x)
         bet7 = bool(input("How many cases are you betting? "))
@@ -129,13 +117,11 @@ def ask_question(queans1, trivia_list, random_cases):
         for answer7 in queans3:
             print("Correct!")
             random_cases -= bet7
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question7)
+            print("There are now " + str(random_cases) + " cases")
         else:
             print("Incorrect")
             random_cases += bet7
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question7)
+            print("There are now " + str(random_cases) + " cases")
     if x == trivia_list[7]:
         print(x)
         bet8 = bool(input("How many cases are you betting? "))
@@ -143,13 +129,11 @@ def ask_question(queans1, trivia_list, random_cases):
         for answer8 in queans4:
             print("Correct!")
             random_cases -= bet8
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question8)
+            print("There are now " + str(random_cases) + " cases")
         else:
             print("Incorrect")
             random_cases += bet8
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question8)
+            print("There are now " + str(random_cases) + " cases")
     if x == trivia_list[8]:
         print(x)
         bet9 = bool(input("How many cases are you betting? "))
@@ -157,13 +141,11 @@ def ask_question(queans1, trivia_list, random_cases):
         for answer9 in queans1:
             print("Correct!")
             random_cases -= bet9
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question9)
+            print("There are now " + str(random_cases) + " cases")
         else:
             print("Incorrect")
             random_cases += bet9
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question9)
+            print("There are now " + str(random_cases) + " cases")
     if x == trivia_list[9]:
         print(x)
         bet10 = bool(input("How many cases are you betting? "))
@@ -171,13 +153,11 @@ def ask_question(queans1, trivia_list, random_cases):
         for answer10 in queans2:
             print("Correct!")
             random_cases -= bet10
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question10)
+            print("There are now " + str(random_cases) + " cases")
         else:
             print("Incorrect")
             random_cases += bet10
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question10)
+            print("There are now " + str(random_cases) + " cases")
     if x == trivia_list[10]:
         print(x)
         bet11 = bool(input("How many cases are you betting? "))
@@ -185,13 +165,11 @@ def ask_question(queans1, trivia_list, random_cases):
         for answer11 in queans3:
             print("Correct!")
             random_cases -= bet11
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question11)
+            print("There are now " + str(random_cases) + " cases")
         else:
             print("Incorrect")
             random_cases += bet11
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question11)
+            print("There are now " + str(random_cases) + " cases")
     if x == trivia_list[11]:
         print(x)
         bet12 = bool(input("How many cases are you betting? "))
@@ -199,13 +177,11 @@ def ask_question(queans1, trivia_list, random_cases):
         for answer12 in queans4:
             print("Correct!")
             random_cases -= bet12
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question12)
+            print("There are now " + str(random_cases) + " cases")
         else:
             print("Incorrect")
             random_cases += bet12
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question12)
+            print("There are now " + str(random_cases) + " cases")
     if x == trivia_list[12]:
         print(x)
         bet13 = bool(input("How many cases are you betting? "))
@@ -213,13 +189,11 @@ def ask_question(queans1, trivia_list, random_cases):
         for answer13 in queans1:
             print("Correct!")
             random_cases -= bet13
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question13)
+            print("There are now " + str(random_cases) + " cases")
         else:
             print("Incorrect")
             random_cases += bet13
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question13)
+            print("There are now " + str(random_cases) + " cases")
     if x == trivia_list[13]:
         print(x)
         bet14 = bool(input("How many cases are you betting? "))
@@ -227,13 +201,11 @@ def ask_question(queans1, trivia_list, random_cases):
         for answer14 in queans2:
             print("Correct!")
             random_cases -= bet14
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question14)
+            print("There are now " + str(random_cases) + " cases")
         else:
             print("Incorrect")
             random_cases += bet14
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question14)
+            print("There are now " + str(random_cases) + " cases")
     if x == trivia_list[14]:
         print(x)
         bet15 = bool(input("How many cases are you betting? "))
@@ -241,13 +213,11 @@ def ask_question(queans1, trivia_list, random_cases):
         for answer1 in queans3:
             print("Correct!")
             random_cases -= bet15
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question15)
+            print("There are now " + str(random_cases) + " cases")
         else:
             print("Incorrect")
             random_cases += bet15
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question15)
+            print("There are now " + str(random_cases) + " cases")
     if x == trivia_list[15]:
         print(x)
         bet16 = bool(input("How many cases are you betting? "))
@@ -255,13 +225,11 @@ def ask_question(queans1, trivia_list, random_cases):
         for answer16 in queans4:
             print("Correct!")
             random_cases -= bet16
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question16)
+            print("There are now " + str(random_cases) + " cases")
         else:
             print("Incorrect")
             random_cases += bet16
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question16)
+            print("There are now " + str(random_cases) + " cases")
     if x == trivia_list[16]:
         print(x)
         bet17 = bool(input("How many cases are you betting? "))
@@ -269,13 +237,11 @@ def ask_question(queans1, trivia_list, random_cases):
         for answer17 in queans1:
             print("Correct!")
             random_cases -= bet17
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question17)
+            print("There are now " + str(random_cases) + " cases")
         else:
             print("Incorrect")
             random_cases += bet17
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question17)
+            print("There are now " + str(random_cases) + " cases")
     if x == trivia_list[17]:
         print(x)
         bet18 = bool(input("How many cases are you betting? "))
@@ -283,13 +249,11 @@ def ask_question(queans1, trivia_list, random_cases):
         for answer18 in queans2:
             print("Correct!")
             random_cases -= bet18
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question18)
+            print("There are now " + str(random_cases) + " cases")
         else:
             print("Incorrect")
             random_cases += bet18
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question18)
+            print("There are now " + str(random_cases) + " cases")
     if x == trivia_list[18]:
         print(x)
         bet19 = bool(input("How many cases are you betting? "))
@@ -297,27 +261,23 @@ def ask_question(queans1, trivia_list, random_cases):
         for answer19 in queans3:
             print("Correct!")
             random_cases -= bet19
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question19)
+            print("There are now " + str(random_cases) + " cases")
         else:
             print("Incorrect")
             random_cases += bet19
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question19)
+            print("There are now " + str(random_cases) + " cases")
     if x == trivia_list[19]:
         print(x)
         bet20 = bool(input("How many cases are you betting? "))
         answer20 = input("Which letter is the correct answer? ")
-        for answer20 in queans14:
+        for answer20 in queans4:
             print("Correct!")
             random_cases -= bet20
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question20)
+            print("There are now " + str(random_cases) + " cases")
         else:
             print("Incorrect")
             random_cases += bet20
-            print("There are now" + random_cases + "cases")
-            trivia_list.remove(question20)
+            print("There are now " + str(random_cases) + " cases")
     return random_cases
   
         
