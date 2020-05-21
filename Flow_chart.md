@@ -18,7 +18,7 @@ You may write your flow chart here or upload it as a separate file.
 4. Put the function above in a while loop so that
     a. If the cases get to 0, the user wins and the game is over.
     b. If the cases get to over 5000, the user loses and the 
-    c. If the cases remain between 0 and 5000
+    c. If the cases remain between 0 and 5000.
 
 Questions: (* is the correct answer)
 What is the difference between an epidemic and a pandemic?
