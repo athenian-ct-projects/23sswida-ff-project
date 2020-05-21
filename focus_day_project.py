@@ -9,7 +9,7 @@ start_list = ["Yes", "yes", "y", "Y", "yep", "Yep", "Yeah", "yeah", "ok", "Ok", 
 question1 = ("What is the difference between an epidemic and a pandemic?" + '\n' + "a. the size of the region the disease affects" + '\n' + "b. the mortality rate" + '\n' + "c. how quickly the disease spreads" + '\n' + "d. virus vs. bacteria")
 question2 = ("Where was the first reported case of the Spanish Flu?" + '\n' + "a. Spain " + '\n' + "b. Kansas" + '\n' + "c. Venezuela" + '\n' + "d. Egypt")
 question3 = ("When was the first confirmed case of coronavirus?" + '\n' + "a. January 21, 2020" + '\n' + "b. December 2, 2019" + '\n' + "c. December 31, 2019" + '\n' + "d. February 3, 2020")
-question4 = ("What does CDC stand for?" + '\n' + "a. Center for the Doctors of California"  + '\n' + "b. Coronavirus Death Count" + '\n' + "c. California Department of Care"  + '\n' + "Center for Disease Control")
+question4 = ("What does CDC stand for?" + '\n' + "a. Center for the Doctors of California"  + '\n' + "b. Coronavirus Death Count" + '\n' + "c. California Department of Care"  + '\n' + "d. Center for Disease Control")
 question5 = ("What does an epidemiologist mainly do?" + '\n' + "a. Study disease and how to control them"  + '\n' + "b. Help surgeons deliver the right amount of anesthetic"  + '\n' + "c. Study groups of people within certain demographics"  + '\n' + "d. Write newspaper and magazine articles about disease outbreaks")
 question6 = ("Which century was the Black Plague in?" + '\n' + "a. 1200's"  + '\n' + "b. 1300's"  + '\n' + "c. 1400's" + '\n' + "d. 1500's")
 question7 = ("How many people are estimated to have died from the Black Plague?" + '\n' + "a. 100,000-600,000" + '\n' + "b. 3 million-12 million" + '\n' + "c. 75 million-200million" + '\n' + "d. 250 million+")
@@ -23,7 +23,7 @@ question14 = ("How is mononucleosis known for being transmitted?" + '\n' + "a. A
 question15 = ("What is the annual leading cause of death?" + '\n' + "a. Respiratory diseases" + '\n' + "b. Alzheimer's" + '\n' + "c. Heart disease" + '\n' + "d. Cancer")
 question16 = ("Approximately how many 'rare' diseases are there?" + '\n' + "a. 2,100" + '\n' + "b. 3,000" + '\n' + "c. 6,800" + '\n' + "d. 7,000")
 question17 = ("Which of the following is NOT a common symptom of Lyme Disease?" + '\n' + "a. Shortness of breath" + '\n' + "b. Fever" + '\n' + "c. Chills" + '\n' + "d. Muscle aches")
-question18 = ("How common is Alzheimer's in people over 65?" + '\n' + "a. 1 in 11" + '\n' + "b. 1 in 14" + '\n' + "c. 1 in 16" + '\n' + "1 in 63")
+question18 = ("How common is Alzheimer's in people over 65?" + '\n' + "a. 1 in 11" + '\n' + "b. 1 in 14" + '\n' + "c. 1 in 16" + '\n' + "d. 1 in 63")
 question19 = ("How many adults in the US are considered obese?" + '\n' + "a. 480,000" + '\n' + "b. 36 million" + '\n' + "c. 70 million" + '\n' + "d. 99 million")
 question20 = ("What is believed to be the oldest human disease?" + '\n' + "a. Smallpox" + '\n' + "b. Malaria" + '\n' + "c. Cholera" + '\n' + "d. Leprosy")
 trivia_list = [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10, question11, question12, question13, question14, question15, question16, question17, question18, question19, question20]
@@ -195,7 +195,7 @@ def ask_question(queans1, trivia_list, random_cases):
     if x == trivia_list[14]:
         bet15 = int(input("How many cases are you betting? "))
         answer15 = input("Which letter is the correct answer? (A, B, C, or D) ")
-        if answer1 in queans3:
+        if answer15 in queans3:
             print("Correct!")
             random_cases -= bet15
             print("There are now " + str(random_cases) + " cases")
