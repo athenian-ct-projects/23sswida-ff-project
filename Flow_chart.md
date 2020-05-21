@@ -9,16 +9,17 @@ You may write your flow chart here or upload it as a separate file.
 2. Generate random number between 1-5000 for the number of starting cases
 3. Function that prints a random trivia question
     a. print a random question and its answers from a list with all the questions/answers in it
+        1. each question has its own section in the function so that the correct answer corresponds with correct queans list
     b. prompt the user for their bet
-    c. prompt the user to type the correct answer in form of A B C or D
+    c. prompt the user to type the correct answer in form of A, B, C, or D
     d. if the answer is correct, subtract the bet from the random number of cases
-        1. *correct as in part of a list with forms of the correct answer on it
-    e. if the answer is incorrect, add the bet to the random number of cases
+        1. *correct as in part of a list called 'queans' with forms of the correct answer on it
+    e. if the answer is incorrect (not in the queans list), add the bet to the random number of cases
     f. return random number of cases
 4. Put the function above in a while loop so that
     a. If the cases get to 0, the user wins and the game is over.
-    b. If the cases get to over 5000, the user loses and the 
-    c. If the cases remain between 0 and 5000.
+    b. If the cases get to over 5000, the user loses and the game is over.
+    c. If the cases remain between 0 and 5000, repeat the while loop.
 
 Questions: (* is the correct answer)
 What is the difference between an epidemic and a pandemic?
