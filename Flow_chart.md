@@ -4,16 +4,21 @@ You may write your flow chart here or upload it as a separate file.
 * If you upload it, be sure to upload a new version at the end, keeping the original version.
 * If you use this one, the original will still be available so you just need to save (commit) each time you make changes.
 
-1. Prompt user for name of epidemic
+0. Print instructions with input for user to show that they are ready to start 
+1. Prompt user for name of epidemic with input
 2. Generate random number between 1-5000 for the number of starting cases
 3. Function that prints a random trivia question
-4. The user is given a list of possible answers (A, B, C, D)
-5. Before they can answer, they must bet a number of cases
-6. After they bet, they can answer the question.
-7. If the answer is correct, the 'bet' is subtracted from the number of cases
-8. If the ansewer is incorrect, the 'bet' is added to the number of cases
-9. If the cases get to 0, the user wins.
-10. If the cases get to over 5000, the user loses.
+    a. print a random question and its answers from a list with all the questions/answers in it
+    b. prompt the user for their bet
+    c. prompt the user to type the correct answer in form of A B C or D
+    d. if the answer is correct, subtract the bet from the random number of cases
+        1. *correct as in part of a list with forms of the correct answer on it
+    e. if the answer is incorrect, add the bet to the random number of cases
+    f. return random number of cases
+4. Put the function above in a while loop so that
+    a. If the cases get to 0, the user wins and the game is over.
+    b. If the cases get to over 5000, the user loses and the 
+    c. If the cases remain between 0 and 5000
 
 Questions: (* is the correct answer)
 What is the difference between an epidemic and a pandemic?
