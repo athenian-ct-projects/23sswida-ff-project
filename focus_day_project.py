@@ -10,7 +10,7 @@ question1 = ("What is the difference between an epidemic and a pandemic?" + '\n'
 question2 = ("Where was the first reported case of the Spanish Flu?" + '\n' + "a. Spain " + '\n' + "b. Kansas" + '\n' + "c. Venezuela" + '\n' + "d. Egypt")
 question3 = ("When was the first confirmed case of coronavirus?" + '\n' + "a. January 21, 2020" + '\n' + "b. December 2, 2019" + '\n' + "c. December 31, 2019" + '\n' + "d. February 3, 2020")
 question4 = ("What does CDC stand for?" + '\n' + "a. Center for the Doctors of California"  + '\n' + "b. Coronavirus Death Count" + '\n' + "c. California Department of Care"  + '\n' + "d. Center for Disease Control")
-question5 = ("What does an epidemiologist mainly do?" + '\n' + "a. Study disease and how to control them"  + '\n' + "b. Help surgeons deliver the right amount of anesthetic"  + '\n' + "c. Study groups of people within certain demographics"  + '\n' + "d. Write newspaper and magazine articles about disease outbreaks")
+question5 = ("What does an epidemiologist mainly do?" + '\n' + "a. Study diseases and how to control them"  + '\n' + "b. Help surgeons deliver the right amount of anesthetic"  + '\n' + "c. Study groups of people within certain demographics"  + '\n' + "d. Write newspaper and magazine articles about disease outbreaks")
 question6 = ("Which century was the Black Plague in?" + '\n' + "a. 1200's"  + '\n' + "b. 1300's"  + '\n' + "c. 1400's" + '\n' + "d. 1500's")
 question7 = ("How many people are estimated to have died from the Black Plague?" + '\n' + "a. 100,000-600,000" + '\n' + "b. 3 million-12 million" + '\n' + "c. 75 million-200million" + '\n' + "d. 250 million+")
 question8 = ("What is the mortality rate of rabies?" + '\n' + "a. ~61%" + '\n' + "b. ~64%" + '\n' + "c. ~89%" + '\n' + "d. ~100%")
@@ -275,8 +275,8 @@ disease_name = input("What should we call this disease? ")
 while 0<random_cases<5000:
     random_cases = ask_question(queans1, trivia_list, random_cases)
     if random_cases>5000:
-        print("Oops! You reached over 5000 cases. Better luck next time!")
+        print("Oops! " + disease_name + " has spread to too many people. Better luck next time!")
         break
     elif random_cases == 0:
-        print("Congrats! You won!")
+        print("Congrats! You have cured " + disease_name + "!")
         break
