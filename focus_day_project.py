@@ -34,7 +34,7 @@ queans2 = ["B"]
 queans3 = ["C"]
 queans4 = ["D"]
 
-
+#function to ask question and bet
 def ask_question(queans1, trivia_list, random_cases):
     x = random.choice(trivia_list) 
     print(x)
@@ -261,7 +261,7 @@ def ask_question(queans1, trivia_list, random_cases):
     return random_cases
   
         
-#instructions
+#print instructions for user/start game
 start = input("Welcome to 'Cure That Disease!' To start the game, you will be given a number of cases between 1 and 5000. This is how many cases you have to begin with. You will then be given a series of questions. Before each question, you can 'bet' a number of cases. If you get the question right, that number is taken off your case count. If you get it wrong, it is added to your case count. Be careful, because if your case count goes over 5000, you lose the game. There are only 20 questions, so keep that in mind when making your bets. Your objective is to get down to 0 cases. Are you ready? " )
 while start not in start_list:
     print("Sorry, I didn't understand that. Try typing in a different answer.")
@@ -271,6 +271,7 @@ random_cases = random.randint(1,5001)
 print ("We have just discovered a new disease! There are already " + str(random_cases) + " confirmed cases.")
 #naming the disease
 disease_name = input("What should we call this disease? ")
+#trivia questions loop, goes until 0 or 5000
 while 0<random_cases<5000:
     random_cases = ask_question(queans1, trivia_list, random_cases)
     if random_cases>5000:
