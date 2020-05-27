@@ -29,10 +29,10 @@ question20 = ("What is believed to be the oldest human disease?" + '\n' + "a. Sm
 trivia_list = [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10, question11, question12, question13, question14, question15, question16, question17, question18, question19, question20]
 
 #question answers
-queans1 = ["A"]
-queans2 = ["B"]
-queans3 = ["C"]
-queans4 = ["D"]
+queans1 = ["A", "a"]
+queans2 = ["B", "b"]
+queans3 = ["C", "c"]
+queans4 = ["D", "d"]
 
 #function to ask question and bet
 def ask_question(queans1, trivia_list, random_cases):
@@ -280,3 +280,22 @@ while 0<random_cases<5000:
     elif random_cases == 0:
         print("Congrats! You have cured " + disease_name + "!")
         break
+
+#references
+#https://www.cdc.gov/diseasesconditions/az/a.html
+#https://www.cdc.gov/nchs/fastats/deaths.htm
+#https://www.dailymail.co.uk/sciencetech/article-2568579/Leprosy-oldest-disease-humans-Bacteria-existed-MILLIONS-years-infected-ancestors-claims-study.html
+#https://en.wikipedia.org/wiki/Obesity_in_the_United_States
+#https://www.nhs.uk/conditions/alzheimers-disease/
+#https://www.cdc.gov/lyme/signs_symptoms/index.html
+#https://www.findacure.org.uk/rare-diseases/
+#https://www.cdc.gov/nchs/fastats/leading-causes-of-death.htm
+#https://simple.wikipedia.org/wiki/Smallpox
+#https://machinelearningmastery.com/how-to-generate-random-numbers-in-python/
+#https://www.livescience.com/worst-epidemics-and-pandemics-in-history.html
+#https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3959940/
+#https://www.famousbirthdays.com/names/mary.html
+#https://www.mayoclinic.org/diseases-conditions/plague/symptoms-causes/syc-20351291
+#https://www.mayoclinic.org/diseases-conditions/yellow-fever/symptoms-causes/syc-20353045
+#https://www.who.int/news-room/fact-sheets/detail/rabies
+#https://www.history.com/topics/middle-ages/black-death
